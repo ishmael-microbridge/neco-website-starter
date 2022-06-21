@@ -1,0 +1,27 @@
+.main-header {
+  @apply h-[86px] bg-white shadow-md;
+}
+
+.main-header .container {
+  @apply h-full flex flex-row justify-between items-center;
+}
+
+.main-header .default-logo-anchor {
+  @apply block h-[66px];
+}
+
+.main-header .nav-login-button {
+  @apply bg-neco-green px-5 py-2.5 rounded flex items-center gap-2;
+}
+
+.main-header nav ul {
+  @apply flex flex-row gap-10
+}
+
+.main-header nav a {
+  @apply text-dark-gray font-medium;
+}
+
+.main-header nav a.active {
+  @apply text-neco-green;
+}

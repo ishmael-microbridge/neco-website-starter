@@ -1,9 +1,13 @@
-import React from 'react';
-
 import './css/index.css';
+import Layout from './layout';
+import Home from './pages/Home';
 
 function App() {
-  return <h1>SSCE External</h1>;
+  return (
+    <Layout>
+      <Home />
+    </Layout>
+  );
 }
 
 export default App;
