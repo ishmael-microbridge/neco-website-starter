@@ -1,0 +1,39 @@
+footer {
+  @apply bg-[#0B2502] text-white py-20;
+}
+
+footer .footer-content {
+  @apply grid grid-cols-4;
+}
+
+footer .footer-item.logo-copyright {
+  @apply flex flex-col justify-between;
+}
+
+footer .footer-item.logo-copyright img {
+  @apply w-[98px] h-[98px];
+}
+
+footer .footer-item.logo-copyright p {
+  @apply text-[13px];
+}
+
+footer .footer-item h3 {
+  @apply text-lg mb-5;
+}
+
+footer .footer-item li {
+  @apply text-lg mb-2.5 text-[#bfbfbf];
+}
+
+footer .contact-item {
+  @apply flex justify-between mb-5
+}
+
+footer .contact-item h4, footer .contact-item a, footer .contact-item p {
+ @apply text-lg text-[#bfbfbf];
+}
+
+footer .contact-item a, footer .contact-item p {
+ @apply w-2/3
+}
