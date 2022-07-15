@@ -6,7 +6,7 @@ import biometricFlowchart from '../assets/images/biometric-flowchart.svg';
 import howToPointRegPoint from '../assets/images/how-to-find-reg-point.svg';
 import howToCheckResults from '../assets/images/how-to-check-results.svg';
 
-const Home: React.FC = () => {
+const SSCEExternal: React.FC = () => {
   return (
     <section className="home-section">
       <div className="banner">
@@ -281,4 +281,4 @@ const Home: React.FC = () => {
   );
 };
 
-export default Home;
+export default SSCEExternal;

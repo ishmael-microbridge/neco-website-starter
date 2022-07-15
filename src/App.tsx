@@ -1,11 +1,11 @@
 import './css/index.css';
 import Layout from './layout';
-import Home from './pages/Home';
+import PublicRoutes from './routes/routes';
 
 function App() {
   return (
     <Layout>
-      <Home />
+      <PublicRoutes />
     </Layout>
   );
 }

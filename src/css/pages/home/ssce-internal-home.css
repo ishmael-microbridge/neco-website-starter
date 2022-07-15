@@ -1,0 +1,141 @@
+.banner-text.internal p {
+  @apply w-[475px] text-left;
+}
+.scroll-down-img {
+  @apply h-[178px] w-[177px] mt-20;
+}
+.subjects {
+  @apply bg-[#F8FFF8] p-20;
+}
+.subject-instruction {
+  @apply w-1/2 mb-20;
+}
+
+.subject-instruction h2 {
+  @apply text-3xl mb-10;
+}
+
+.subject-instruction p {
+  @apply text-base;
+}
+.subject-cards {
+  @apply grid grid-cols-6 gap-10;
+}
+.card img {
+ @apply w-[50px] h-[50px] mb-5;
+}
+.card p {
+  @apply text-sm font-semibold;
+}
+
+.home-section.internal .section-header {
+  @apply bg-ssce-internal-header-pattern;
+}
+
+.home-section.internal .flowchart-area .content img.how-to-reg-candidates {
+  @apply h-[879px];
+}
+
+.home-section.internal .flowchart-area .content img.how-to-upload-ca3 {
+  @apply h-[492.5px];
+}
+
+.home-section.internal .flowchart-area .content img {
+  @apply h-[575px];
+}
+
+.home-section.internal .download p {
+  @apply mb-5
+}
+
+.home-section.internal .download-card-item {
+  @apply bg-ssce-internal-primary-green;
+}
+
+.about-internal-exam-fees {
+  @apply bg-white  p-20;
+}
+
+.about-internal-exam-fees .container {
+  @apply flex gap-20;
+}
+
+.about-internal-exam-fees .flex-item {
+  @apply w-1/2;
+}
+
+.about-internal-exam-fees .flex-item h2 {
+  @apply text-3xl mb-7;
+}
+
+.about-internal-exam-fees .flex-item h2 span {
+  @apply uppercase block text-xs mb-7;
+}
+
+.about-internal-exam-fees .flex-item p {
+  @apply mb-5
+}
+
+.about-internal-exam-fees .flex-item:last-child p {
+  @apply px-5 text-xl;
+}
+
+.about-internal-exam-fees .banner-cta {
+  @apply mt-24;
+}
+
+.about-internal-exam-fees .flex-item ul {
+  @apply list-disc px-5;
+}
+
+.about-internal-exam-fees .flex-item li {
+  @apply clear-both py-5 flex justify-between;
+}
+
+.about-internal-exam-fees .flex-item li:not(:last-child) {
+  @apply border-b-1 border-b-[#ddd];
+}
+
+.about-internal-exam-fees .flex-item li:first-child {
+  @apply border-t-1 border-t-[#ddd];
+}
+
+.about-internal-exam-fees .flex-item li span {
+  @apply w-1/2;
+}
+
+.about-internal-exam-fees .flex-item li span:first-child {
+  @apply list-item ml-4 text-xl text-[#222222] font-medium;
+}
+
+.about-internal-exam-fees .flex-item li span:nth-child(2) {
+  @apply text-left px-8 text-[#7A7A7A] text-base;
+}
+
+.requirements {
+  @apply bg-[#F8FFFC];
+}
+
+.requirements .container {
+  @apply flex justify-between;
+}
+
+.requirements .container .flex-item {
+  @apply w-1/2 p-40 ;
+}
+
+.requirements .container .flex-item p {
+  @apply mb-5;
+}
+
+.requirements .flex-item .flex-item-bg {
+  @apply bg-no-repeat h-[200px] w-full absolute -mt-16;
+}
+
+.requirements .flex-item .flex-item-bg.one {
+  @apply bg-one;
+}
+
+.requirements .flex-item .flex-item-bg.two {
+  @apply bg-two;
+}

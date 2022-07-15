@@ -26,6 +26,14 @@
   @apply border-neco-blue text-neco-blue border-1;
 }
 
+.button.ssce-internal-primary {
+  @apply bg-ssce-internal-primary-green text-white;
+}
+
+.button.ssce-internal-primary-stroke {
+  @apply border-ssce-internal-primary-green text-ssce-internal-primary-green border-1;
+}
+
 .button.secondary {
   @apply bg-neco-green text-white;
 }
@@ -38,8 +46,12 @@
   @apply bg-white text-neco-blue;
 }
 
+.button.white.internal {
+  @apply bg-white text-ssce-internal-primary-green;
+}
+
 .button.white-stroke {
-  @apply bg-neco-blue text-white border-1 border-white;
+  @apply text-white border-1 border-white;
 }
 
 .button.wide {
